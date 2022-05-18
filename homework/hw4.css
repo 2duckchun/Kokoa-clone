@@ -1,0 +1,50 @@
+body {
+    height: 90vh;
+    border: 15px solid teal;
+    margin: 0;
+}
+
+.playlist-bar {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    top: 50px;
+    justify-content: center;
+    padding: 5px 3px;
+  }
+  .playlist__column {
+    width: 33%;
+  }
+  .playlist__column:first-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .playlist__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+  }
+  .playlist__column:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.nowplay {
+    display: flex;
+}
+.nowplay__album {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 20%;
+    margin: 40px 20px 40px 40px;
+}
+.nowplay__songinfo {
+    margin-top: 50px;
+    font-weight: 900;
+}
+.nowplay__song-name {
+    font-size: 50px;
+    line-height: 1;
+}
